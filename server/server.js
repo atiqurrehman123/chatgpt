@@ -37,6 +37,7 @@ app.post("/", async (req, res) => {
     res.status(500).send({ error });
   }
 });
-app.listen(5000, () => {
+const PORT=5000 || process.env.PORT
+app.listen(PORT, () => {
   console.log("Server runinnig on Port 3000");
 });
