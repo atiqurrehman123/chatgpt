@@ -72,7 +72,7 @@ const HandleSubmit = async (e) => {
 
   //loading data from server -> bot's response
 
-  const response = await fetch("http://localhost:5000", {
+  const response = await fetch("https://chatgpt-serever432432.vercel.app/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
