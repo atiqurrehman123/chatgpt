@@ -16,7 +16,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.get("/", (req, res) => {
-  res.send("faefae");
+  res.send("Chat gpt server running");
 });
 app.post("/", async (req, res) => {
   try {
